@@ -1,0 +1,171 @@
+body{
+            
+            font-family: verdana,Arial,Helvetica,sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+        .sayfa{
+            width: 960px;
+            
+        }
+        .ust{
+            background-color: black;
+            height:150px;
+            width: 1280px;
+
+        }
+        
+         #logo{
+            float: left;
+            width: 300px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+        #logo h1{
+            margin: 0;
+            padding: 0;
+            font-size: 42px;
+            text-transform: uppercase;
+
+
+            
+        }
+        
+        #logo h1 a{
+            font-family: Georgia;
+            text-decoration: none;
+            color: #DBDBDB;
+            letter-spacing: 3px;
+           
+            
+        }
+        
+        #logo p{
+            color: #DBDBDB;
+            font-family: Georgia;
+            margin-left: 3px;
+            margin-top: 0;
+            padding-top: 0;
+            letter-spacing: 2px;
+        }
+        #menu{
+            float: right;
+            width: 650px;
+            margin: 30px 0 0 0;
+            padding: 0;
+            font-size: 13px;
+            text-align: center;
+
+        }
+        
+        #menu ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #menu ul li{
+            display: inline;
+            margin-right: 35px;
+        }
+        
+        #menu ul li a{
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Verdana;
+            color: #DBDBDB;
+        }
+
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+ {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 30px;
+    color: dark;
+    background: dark;
+}
+ 
+.Öde {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+ 
+#Ödeme input[type="text"],
+#Ödeme input[type="email"],
+#Ödeme textarea,
+#Ödeme button[type="submit"] {
+   
+}
+ 
+#Ödeme {
+    background: dark;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#Ödeme h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+ 
+.baslik{
+  
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#Ödeme input[type="text"],
+#Ödeme input[type="email"],
+#Ödeme textarea {
+    width: 100%;
+    border: 1px dashed;
+    background: white;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#Ödeme input[type="text"]:hover,
+#Ödeme input[type="email"]:hover,
+#Ödeme textarea:hover {
+    
+    border: 1px dashed;
+}
+ 
+
+ 
+#Ödeme button[type="submit"] {
+    width: 100%;
+    border: none;
+    background: darkcyan;
+    color: dark;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#Ödeme button[type="submit"]:hover {
+    background: lightblue;
+   }
+ 
+#Ödeme button[type="submit"]:active {
+    box-shadow: 4px;
+}
+ 
+#Ödeme input:focus,
+#Ödeme textarea:focus {
+    outline: 0;
+}
+ 
